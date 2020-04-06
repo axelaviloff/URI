@@ -10,5 +10,3 @@ for i in range(n):
     else:
         print("nao encaixa")
     
-    print(nm1[pos:])
-    print(nm2)
