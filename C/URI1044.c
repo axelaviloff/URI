@@ -7,7 +7,7 @@ int saoMultiplos(int a, int b) {
         return 1;
     return 0;
 }
-
+// 
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
