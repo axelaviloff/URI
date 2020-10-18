@@ -25,8 +25,6 @@ int main() {
         else
             printf("Q3\n");
     
-     
-    
     return 0;
 
 }
