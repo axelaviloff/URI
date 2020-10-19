@@ -1,16 +1,6 @@
-a, b = map(int, input().split())
-q = a // b
-r = a % b
-
-if r < 0:
-    
-    if q > 0:
-        q += 1
-    
-    if q < 0:
-        q += 1
-    
-    r = a - (q*b)
-
-
+a, b = [int(x) for x in input().split()]
+for r in range(abs(b)):
+    if ((a - r) % b) == 0:
+        q = int((a - r)/b)
+        break
 print(q, r)
